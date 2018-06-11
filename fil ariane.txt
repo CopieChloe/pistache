@@ -1,0 +1,57 @@
+1) Modélisation BDD 
+
+2) Création BDD (phpmyadmin ou console) 
+
+3) Structure dossier : 2 sites à coder front+back, fichiers d'inclusion
+
+    > boutique
+
+        > admin
+            > assets 
+                > css 
+            > inc 
+                header.php 
+                footer.php 
+            index.php 
+
+        > assets
+            > css
+            > js
+            > img
+
+        > inc
+            header.php 
+            footer.php 
+            init.php 
+            fonction.php 
+
+        index.php 
+
+4) Connexion à la bdd dans init.php + ouverture de session + déclaration de variables, fonctions, etc.
+
+5) Dvper index.php : front basique + découpage header/footer.php 
+
+6) Dvper inscription.php (formulaire, traitement et sécurité)
+
+7) Dvper connexion.php (formulaire, traitement et sécurité)
+
+8) Dvper profil.php (affichage des données)
+
+9) Traitement de la déconnexion
+
+10) Côté back office : dvper côté admin
+        -Afficher et traiter un formulaire produit (insert en bdd) 
+        -Afficher liste de pdts en bdd + option de modif et suppression de pdt 
+
+11) Afficher pdts ds boutique.php 
+        -Affichage des pdts et catégories
+        -Rendre contenu cliquable pr détail pdt
+
+12) Dvper page fiche_produit.php (traitement en get ac récup° id & affichage détails pdt)
+
+13) Traitement panier 
+        -Création fonction pr add pdt au panier 
+        -Traitement pr afficher pdts sélectionnés ds un tableau de résumé ($_SESSION)
+        -Création fonction pr calculer montant total
+        -Option de suppression du panier + traitement 
+        -Traitement pr terminer commande
